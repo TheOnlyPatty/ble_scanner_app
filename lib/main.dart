@@ -146,7 +146,9 @@ showHelpDialog(BuildContext context) {
   );
   AlertDialog alert = AlertDialog(
     title: Text("Help Dialog"),
-    content: Text("Press the BLE button to scan for devices, the sort button to sort the devices by RSSI, and the devices to connect to them(if they are connectable) "),
+    content: Text("Press the BLE button to scan for devices, the sort button to sort the devices by RSSI, and "
+        "the devices to connect to them(if they are connectable). Pressing the BLE button again will disconnect"
+        " all devices and start a new scan"),
     actions: [
       ok,
     ],
