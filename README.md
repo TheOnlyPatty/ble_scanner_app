@@ -1,3 +1,3 @@
 # ble_scanner_app
 
-BLE scanner app for technical test at onceLabs
+BLE scanner app for finding and connecting to nearby BLE devices
